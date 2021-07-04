@@ -1,0 +1,57 @@
+.homeContainer {
+  align-items: center;
+  width: 100%;
+}
+.spanContent {
+  position: absolute;
+  width: 550px;
+  height: 183px;
+  left: 120px;
+  top: 279px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 61px;
+
+  color: #000000;
+}
+.homeImage {
+  position: absolute;
+  width: 499px;
+  height: 326px;
+  left: 730px;
+  top: 195px;
+  border-radius: 20px;
+}
+
+.spanContent2 {
+  position: absolute;
+  width: 261px;
+  height: 150px;
+  left: 120px;
+  margin-top: 920px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 150%;
+}
+.cardContent1 {
+  position: absolute;
+  width: 242px;
+  height: 314px;
+  left: 535px;
+  top: 1030px;
+  border-radius: 20px;
+  filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.2));
+}
+
+.cardContent2 {
+  position: absolute;
+  width: 242px;
+  height: 314px;
+  left: 973px;
+  top: 1030px;
+  filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.2));
+border-radius: 20px;
+}
