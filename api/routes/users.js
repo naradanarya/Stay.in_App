@@ -42,8 +42,12 @@ router.delete("/:id", async (req, res) => {
 
 //Get User
 router.get("/:id", async (req, res) => {
+  const userId = req.query.userId;
+  const username = req.query.username;
   try {
-    const user = await User.findById(req.params.id);
+    const user = userId
+      ? await User.findById(userId)
+      : await User.findOne({ username: username });
     const { password, updatedAt, ...other } = user._doc;
     res.status(200).json(other);
   } catch (err) {
@@ -72,7 +76,7 @@ router.put("/:id/follow", async (req, res) => {
   }
 });
 
-//unfollow user 
+//unfollow user
 router.put("/:id/unfollow", async (req, res) => {
   if (req.body.userId !== req.params.id) {
     try {

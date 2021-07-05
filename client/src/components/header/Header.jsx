@@ -1,8 +1,11 @@
 import "./header.css";
 import { Notifications } from "@material-ui/icons";
 import { Button } from "@material-ui/core";
+import { useContext } from "react";
+import { AuthContext } from "../../context/AuthContext";
 
 export default function Header() {
+  const { user } = useContext(AuthContext);
   return (
     <div className="headerContainer">
       <div className="headerLeft">
@@ -16,17 +19,25 @@ export default function Header() {
         </div>
         <div className="topbarIcons">
           <div className="topbarIconItem">
-            <Button variant="outlined" color="primary" href="/login">
-              Login
-            </Button>
+            {!user ? (
+              <Button variant="outlined" color="primary" href="/login">
+                Login
+              </Button>
+            ) : (
+              <div></div>
+            )}
           </div>
           <div className="topbarIconItem">
-            <Button variant="contained" color="primary" href="/register">
-              register
-            </Button>
+            {!user ? (
+              <Button variant="contained" color="primary" href="/register">
+                register
+              </Button>
+            ) : (
+              <div></div>
+            )}
           </div>
           <div className="topbarIconItem">
-            <Notifications />
+            {user ? <Notifications /> : <div></div>}
           </div>
         </div>
       </div>
