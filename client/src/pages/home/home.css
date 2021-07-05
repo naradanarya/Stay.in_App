@@ -25,13 +25,21 @@
   top: 195px;
   border-radius: 20px;
 }
+.homeContent {
+  position: absolute;
+  width: 1440px;
+  height: 1300px;
+  left: 0px;
+  top: 980px;
+  background: #ffffff;
+}
 
 .spanContent2 {
   position: absolute;
   width: 261px;
   height: 150px;
   left: 120px;
-  margin-top: 920px;
+  top: 70px;
   font-weight: 500;
   font-size: 50px;
   line-height: 150%;
@@ -41,7 +49,7 @@
   width: 242px;
   height: 314px;
   left: 535px;
-  top: 1030px;
+  top: 70px;
   border-radius: 20px;
   filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.2));
 }
@@ -51,7 +59,101 @@
   width: 242px;
   height: 314px;
   left: 973px;
-  top: 1030px;
+  top: 70px;
   filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.2));
-border-radius: 20px;
+  border-radius: 20px;
+}
+.homeContentSpan {
+  position: absolute;
+  width: 142px;
+  height: 39px;
+  left: 535px;
+  top: 394px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 150%;
+}
+.homeContentSpan2 {
+  position: absolute;
+  width: 242px;
+  height: 78px;
+  left: 973px;
+  top: 394px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 150%;
+}
+.homeContentParagraph {
+  position: absolute;
+  width: 242px;
+  height: 105px;
+  left: 535px;
+  top: 443px;
+  font-size: 14px;
+  line-height: 150%;
+}
+.homeContentParagraph2 {
+  position: absolute;
+  width: 242px;
+  height: 84px;
+  left: 973px;
+  top: 482px;
+  font-size: 14px;
+  line-height: 150%;
+}
+.cardContent3 {
+  position: absolute;
+  width: 242px;
+  height: 314px;
+  left: 535px;
+  top: 650px;
+  filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+}
+.cardContent4 {
+  position: absolute;
+  width: 242px;
+  height: 314px;
+  left: 973px;
+  top: 650px;
+  filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+}
+.homeContentSpan3 {
+  position: absolute;
+  width: 242px;
+  height: 78px;
+  left: 535px;
+  top: 974px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 150%;
+}
+.homeContentParagraph3 {
+  position: absolute;
+  width: 242px;
+  height: 126px;
+  left: 535px;
+  top: 1062px;
+  font-size: 14px;
+  line-height: 150%;
+}
+.homeContentSpan4 {
+  position: absolute;
+  width: 242px;
+  height: 39px;
+  left: 973px;
+  top: 974px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 150%;
+}
+.homeContentParagraph4 {
+  position: absolute;
+  width: 242px;
+  height: 207px;
+  left: 973px;
+  top: 1023px;
+  font-size: 14px;
+  line-height: 150%;
 }

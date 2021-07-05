@@ -26,11 +26,29 @@ export default function Home() {
           alt="cardContent"
           className="cardContent1"
         />
+        <span className="homeContentSpan">Save Money</span>
+        <p className="homeContentParagraph">A staycation can save a family hundreds of dollars. For the most part, travel is minimal, so expenses such as gas for the car, or airplane tickets, are mostly non-existent.</p>
         <img
           src="https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           alt="cardContent2"
           className="cardContent2"
         />
+        <span className="homeContentSpan2">Bring Revenue to the Local Economy</span>
+        <p className="homeContentParagraph2">Local shops, restaurants and hotels reap the benefits of their citizens visiting them rather than traveling out of town.</p>
+        <img
+          src="https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt="cardContent3"
+          className="cardContent3"
+        />
+        <span className="homeContentSpan3">No Need to Take Time off from Work</span>
+        <p className="homeContentParagraph3">A staycation can often be done over a weekend, as travel is minimal. Many parents can affordably go away for Saturday and Sunday with only the expense of a hotel room and babysitter.</p>
+        <img
+          src="https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt="cardContent4"
+          className="cardContent4"
+        />
+        <span className="homeContentSpan4">Easier to Plan</span>
+        <p className="homeContentParagraph4">Since most people know the area in which they live, planning a staycation can be a great deal less stress and take a lot less time than a vacation that is far away. Which hotels are clean and safe, which restaurants are reasonably priced and so forth, are either already known or easily researched when you live in the area you are staycationing in.</p>
       </div>
       <Footer />
     </>

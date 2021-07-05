@@ -97,6 +97,7 @@ export default function feed() {
             variant="contained"
             size="big"
             color="primary"
+            href="/result"
           >
             Find Now !
           </Button>

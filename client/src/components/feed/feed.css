@@ -5,8 +5,7 @@
   left: 123px;
   top: 615px;
   border-radius: 30px;
-  box-shadow: 20px 20px 20px rgba(169, 161, 161, 0.3);
-}
+ }
 .cardContent {
   background-color: #004aad !important;
   color: white !important;

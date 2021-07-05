@@ -51,6 +51,7 @@ export default function Login() {
                 color="primary"
                 className="loginButton"
                 disabled={isFetching}
+                href="/"
               >
                 {isFetching ? (
                   <CircularProgress color="white" size="20px" />

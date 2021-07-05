@@ -13,9 +13,9 @@ export default function Register() {
           <div className="loginBox">
             <input placeholder="Username" className="loginInput" />
             <input placeholder="Email" className="loginInput" />
-            <input placeholder="Password" className="loginInput" />
-            <input placeholder="Password Again" className="loginInput" />
-            <Button variant="contained" color="primary" className="loginButton">
+            <input placeholder="Password" className="loginInput" type="password" />
+            <input placeholder="Password Again" className="loginInput" type="password" />
+            <Button variant="contained" color="primary" className="loginButton" href="/login">
               Sign Up
             </Button>
             <Button
